@@ -1,7 +1,6 @@
     static string[] braces(string[] values) {
         var strReturn = new String[values.Length];
         for(var i = 0; i< values.Length;i++){
-            Console.WriteLine(values[i]);
             strReturn[i] = CheckString(values[i]) ? "YES"   :  "NO" ;
         }
             
